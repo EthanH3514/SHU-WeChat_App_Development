@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">缓存操作</view>
+  <view class="btnLayout">
+    <button type="primary" bindtap="setStorage">异步储存数据</button>
+    <button type="primary" bindtap="setStorageSync">同步储存数据</button>
+  </view>
+  <view class="btnLayout">
+    <button type="primary" bindtap="getStorage">异步获取数据</button>
+    <button type="primary" bindtap="getStorageSync">同步获取数据</button>
+  </view>
+  <view class="btnLayout">
+    <button type="primary" bindtap="getStorageInfo">异步缓存信息</button>
+    <button type="primary" bindtap="getStorageInfoSync">同步缓存信息</button>
+  </view>
+  <view class="btnLayout">
+    <button type="primary" bindtap="removeStorage">异步删除数据</button>
+    <button type="primary" bindtap="removeStorageSync">同步删除数据</button>
+  </view>
+  <view class="storageInfo" hidden="{{hidden}}">
+    <text>{{msg}}</text>
+  </view>
+</view>

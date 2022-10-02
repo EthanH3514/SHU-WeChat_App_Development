@@ -1,0 +1,20 @@
+/**index.wxss**/
+page{
+  text-align: center;
+}
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button{
+  width: 45%;
+  margin: 5px;
+}
+.storageInfo{
+  margin: 20rpx 0;
+  padding: 20rpx;
+  background-color: #f8f8f8;
+  text-align: left;
+  border: 1px solid seagreen;
+}

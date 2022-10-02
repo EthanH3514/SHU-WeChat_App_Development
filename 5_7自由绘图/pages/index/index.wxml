@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">自由绘图</view>
+  <view>
+    <canvas canvas-id="myCanvas" disable-scroll="true" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+    </canvas>
+  </view>
+  <view class="toolStyle01">
+    <view class="toolStyle02">
+      <view class="toolStyle" hover-class="changeBc" bindtap="penSelect" data-param="15">钢笔</view>
+      <view class="toolStyle" hover-class="changeBc" bindtap="penSelect" data-param="15">毛笔</view>
+    </view>
+    <view class="toolStyle02">
+      <view class="toolStyle" hover-class="changeBc" bindtap="colorSelect" data-param="red">红色</view>
+      <view class="toolStyle" hover-class="changeBc" bindtap="colorSelect" data-param="blue">蓝色</view>
+    </view>
+    <view class="toolStyle02">
+      <view class="toolStyle" hover-class="changeBc" bindtap="clear">擦除</view>
+      <view class="toolStyle" hover-class="changeBc" bindtap="clearAll">清屏</view>
+    </view>
+  </view>
+</view>

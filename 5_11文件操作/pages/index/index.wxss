@@ -1,0 +1,19 @@
+/**index.wxss**/
+page{
+  text-align: center;
+}
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button{
+  width: 45%;
+  margin: 5px;
+}
+.fileInfo{
+  margin: 10rpx 0;
+  background-color: #f8f8f8;
+  text-align: left;
+  border: 1px solid seagreen;
+}

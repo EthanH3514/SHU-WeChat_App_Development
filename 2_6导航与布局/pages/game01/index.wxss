@@ -1,0 +1,34 @@
+/**index.wxss**/
+.number{
+  width:90%;
+  line-height: 200px;
+  background-color: yellow;
+  color: red;
+  font-size: 100px;
+  text-align: center;
+  border: 1px solid silver;
+  border-radius: 30px;
+  margin: 15px;
+}
+.placeholder{
+  font-size: 15px;
+}
+input{
+  background: #fff;
+  height: 120rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border-bottom: 1px solid silver;
+}
+.content{
+  background: #fff;
+  padding: 10px;
+  color: #f00;
+}
+button{
+  width: 45%;
+}
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+}

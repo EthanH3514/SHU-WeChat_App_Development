@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<navigator url="/pages/2_1/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_1字体样式设置</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_2/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_2文本样式设置</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_3/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_3图片与声音</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_4/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_4盒模型</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_5/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_5flex弹性盒模型布局</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_7/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_7float页面布局</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_8/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_8摄氏温度转华氏温度</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_10/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_10成绩计算器</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_11/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_11循环求和计算器</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_12/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_12随机数求和</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_13/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_13计时器</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>
+<navigator url="/pages/2_14/index">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">2_14自动随机变化的三色旗</view>
+        <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+</navigator>

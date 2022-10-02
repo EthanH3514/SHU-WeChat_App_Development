@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">利用循环语句求和</view>
+<view>
+<input type="number" placeholder="请输入起点数值" bindblur="startNum"></input>
+<input type="number" placeholer="请输入终点数值" bindblur="endNum"></input>
+</view>
+<view>两个数之间的和为：{{sum}}</view>
+<button type="primary" bindtap="calc">求和</button>
+</view>

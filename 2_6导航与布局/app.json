@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2_1/index",
+    "pages/2_2/index",
+    "pages/2_3/index",
+    "pages/2_4/index",
+    "pages/2_5/index",
+    "pages/2_7/index",
+    "pages/2_8/index",
+    "pages/2_10/index",
+    "pages/2_11/index",
+    "pages/2_12/index",
+    "pages/2_13/index",
+    "pages/2_14/index",
+    "pages/game01/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Work by HeXinyu",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "第二章",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/game01/index",
+        "text": "猜数游戏",
+        "iconPath": "/images/fuwu-off.png",
+        "selectedIconPath": "/images/fuwu-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

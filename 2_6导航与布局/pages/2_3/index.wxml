@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">然然我好喜欢你🥰</view>
+<view style="text-align: center;">
+<image src="{{imgSrc}}" bindtap="tapRan"></image>
+</view>
+</view>

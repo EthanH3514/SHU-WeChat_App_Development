@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">猜数游戏</view>
+<view class="number" hidden="{{flag}}">{{num}}</view>
+<view class="btnLayout">
+<button bindtap="start">开始游戏</button>
+<button bindtap="stop">立即结束</button>
+</view>
+<input type="number" placeholder="请输入猜想数字" placeholder-class="placeholder" bindblur="numberInput" hidden="{{flag01}}"></input>
+<view hidden="{{flag02}}" class="content">{{size}}</view>
+<view hidden='{{flag03}}' class="content">共用{{step}}步</view>
+</view>

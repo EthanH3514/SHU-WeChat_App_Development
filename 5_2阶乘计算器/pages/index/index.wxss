@@ -1,0 +1,7 @@
+/**index.wxss**/
+input{
+  border: 3px solid blue;
+  height: 40px;
+  width: 200px;
+  margin: 20px 0
+}

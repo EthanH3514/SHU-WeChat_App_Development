@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">图片展示</view>
+  <view wx:for="{{imgArray}}">
+    <view>{{item.text}}</view>
+    <view class="imgLayout">
+      <image src="{{src}}" mode="{{item.mode}}"></image>
+    </view>
+    ---------------------------
+  </view>
+</view>

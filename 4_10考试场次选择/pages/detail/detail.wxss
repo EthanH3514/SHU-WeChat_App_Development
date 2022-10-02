@@ -1,0 +1,35 @@
+/*detail.wxss*/
+page{
+    height: 100%;
+    background: gainsboro;
+}
+.flex{
+    display: flex;
+    margin: 5px 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border: 2px solid gray;
+    margin: 5px;
+}
+input:hover{
+    border: 2px solid chocolate;
+}
+picker{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btnLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0;
+    width: 100%;
+}
+button{
+    width: 80px;
+}

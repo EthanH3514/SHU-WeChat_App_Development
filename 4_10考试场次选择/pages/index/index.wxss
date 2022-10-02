@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background: gainsboro;
+}
+image{
+  width: 100%;
+  height: 110px;
+}
+.hr{
+  height: 2px;
+  background-color: yellowgreen;
+  margin: 10px 0;
+}
+.lineLayout{
+  display: inline-block;
+  margin: 10px;
+}
+text{
+  float: left;
+}
+input{
+  width: 180px;
+  height: 30px;
+  border-bottom: 2px solid blue;
+  float: left;
+}
+input:hover{
+  border-bottom: 2px solid chocolate;
+}
+button{
+  width: 150px;
+  margin: 20px auto;
+}
+.txt{
+  color: red;
+  background: yellow;
+}

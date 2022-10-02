@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">视频展示</view>
+  <view class="videoLayout">
+    <video id="myVideo" src="blob:https://player.bilibili.com/91c516da-96c4-49ff-8726-2de3b66e0b34" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  </view>
+  <view>
+    <view class="view">弹幕内容</view>
+    <input type="text" bindblur="inputBlur" placeholder="在此处输入弹幕内容" />
+    <button type="primary" bindtap="sendDanmu">发送弹幕</button>
+  </view>
+</view>

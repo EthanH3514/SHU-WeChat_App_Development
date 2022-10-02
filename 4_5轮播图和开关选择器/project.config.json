@@ -1,0 +1,82 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [
+            {
+                "type": "file",
+                "value": ".eslintrc.js"
+            }
+        ]
+    },
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.19.4",
+    "appid": "wxf6687660b2761a07",
+    "projectname": "4_5%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%92%8C%E5%BC%80%E5%85%B3%E9%80%89%E6%8B%A9%E5%99%A8",
+    "debugOptions": {
+        "hidedInDevtools": []
+    },
+    "scripts": {},
+    "staticServerOptions": {
+        "baseURL": "",
+        "servePath": ""
+    },
+    "isGameTourist": false,
+    "condition": {
+        "search": {
+            "list": []
+        },
+        "conversation": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "plugin": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": []
+        }
+    }
+}

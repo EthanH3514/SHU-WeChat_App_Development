@@ -1,0 +1,20 @@
+/**index.wxss**/
+.txtLayout{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0rpx;
+  border: 1px solid burlywood;
+  padding: 10rpx;
+}
+text{
+  margin: 10rpx 0;
+}
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+input{
+  margin: 20rpx 0;
+  border-bottom: 1px solid blue;
+}

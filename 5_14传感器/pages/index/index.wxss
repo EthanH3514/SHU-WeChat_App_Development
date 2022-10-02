@@ -1,0 +1,20 @@
+/**index.wxss**/
+button{
+  margin:10rpx;
+  width: 45%;
+}
+view{
+  margin: 5rpx 0rpx;
+  padding: 5rpx;
+}
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.txtLayout{
+  display: flex;
+  flex-direction: column;
+  margin: 5rpx 0rpx;
+  border: 1px solid burlywood;
+}

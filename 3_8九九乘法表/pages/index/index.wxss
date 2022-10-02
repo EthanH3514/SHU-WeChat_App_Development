@@ -1,0 +1,9 @@
+/**index.wxss**/
+.con{
+  font-size: 14px;
+  margin: 10px;
+}
+.inline{
+  display: inline-block;
+  width: 65px;
+}

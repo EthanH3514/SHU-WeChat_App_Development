@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">模板的定义和引用</view>
+  <import src="template.wxml"></import>
+  <template is='student' data="{{...stu01}}"></template>
+  ------------------------------
+  <template is='student' data="{{...stu02}}"></template>
+  ------------------------------
+  <template is='student' data="{{name:'王五',age:'20',gender:'男'}}"/>
+</view>

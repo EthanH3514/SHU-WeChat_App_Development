@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<include src="header.wxml"/>
+<view style="margin: 20px;text-align: justify;">
+  自动定理证明是指把人类证明定理的过程变成能在计算机上自动实现符号演算的过程。它是典型的逻辑推理问题之一，在发展人工智能方法上起过重大作用。很多非数学领域的任务如医疗诊断、信息检索、规划制定和问题求解，都可以转换成一个定理证明问题。所以该课题的研究具有普遍意义。
+</view>
+<include src="footer.wxml"/>

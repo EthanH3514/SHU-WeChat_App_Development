@@ -1,0 +1,4 @@
+<!--footer.wxml-->
+<view class="footer" style="height:100px">
+版权所有 @上海大学   |    电话：114514
+</view>
